@@ -13,7 +13,7 @@ module.exports = function unhandledSetup (middleware) {
       var res = ctx.res
       if (
         res.body === undefined &&
-        res.status === 404 &&
+        (res.status === undefined || res.status === 404) &&
         !res.get('Location') &&
         !res.get('Content-Type')
       ) return middleware(ctx, next)
