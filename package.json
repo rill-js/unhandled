@@ -1,7 +1,7 @@
 {
   "name": "@rill/unhandled",
   "description": "Build Rill middleware that only run on unhandled requests.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "bugs": "https://github.com/rill-js/unhandled/issues",
   "devDependencies": {
